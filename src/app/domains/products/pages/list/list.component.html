@@ -1,3 +1,6 @@
-<div>
-   <app-product/>
+<div class="grid grid-cols-3 gap-7">
+   <app-product title="Product 1" [price]="12" img="https://picsum.photos/300/300?=23" (addToCart)="fromChild($event)"/>
+   <app-product title="Product 2" [price]="12" img="https://picsum.photos/300/300?=24"/>
+   <app-product title="Product 3" [price]="12" img="https://picsum.photos/300/300?=25"/>
+   <app-product title="Product 4" [price]="12" img="https://picsum.photos/300/300?=26"/>
 </div>
