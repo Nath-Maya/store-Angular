@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProductComponent } from '../../../produts/components/product/product.component.js';
+import { ProductComponent } from '../../components/product/product.component.js';
 
 @Component({
   selector: 'app-list',
